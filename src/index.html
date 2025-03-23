@@ -10,7 +10,7 @@
 
 </head>
 
-<body class="bg-[#00664F]">.
+<body class="bg-[#00664F] h-full w-full">.
 
     <section class="w-full h-full flex flex-row items-center justify-center text-white gap-6 mb-4 max-sm:text-[12px]">
         <p>Opening 14 November</p>
@@ -49,7 +49,8 @@
         </nav>
 
         <section class="flex gap-8 items-center max-sm:flex-col">
-            <div class="flex flex-row justify-center items-center gap-[12px] mr-0 font-[500] text-sm max-sm:text-[12px]">
+            <div
+                class="flex flex-row justify-center items-center gap-[12px] mr-0 font-[500] text-sm max-sm:text-[12px]">
                 <i class="text-[#17B26A] text-[8px] fas fa-circle"></i>
                 <p>Open Mon – Fri</p>
                 <p>9am – 5pm</p>
@@ -73,10 +74,10 @@
     <main class="bg-white">
         <!--The GP care Port Macquarie deserves-->
         <article
-            class="w-full h-full px-24 py-12 flex flex-row justify-center items-center bg-white gap-12 mb-12 max-lg:flex max-lg:flex-col max-lg:pt-16 max-md:px-12 ">
+            class="w-full h-full px-24 py-12 flex flex-row justify-center items-center bg-white gap-12 mb-12 lg:justify-evenly max-lg:flex max-lg:flex-col max-lg:pt-16 max-md:px-12 ">
 
             <section
-                class="w-full h-full basis-[50%] flex flex-col max-lg:items-center max-lg:justify-center max-md:text-center">
+                class="w-full h-full basis-1/2 flex flex-col max-lg:items-center max-lg:justify-center max-md:text-center max-sm:text-center">
 
                 <section
                     class=" flex flex-row justify-start items-center place-content-center text-center gap-12 mb-8 text-sm ">
@@ -91,17 +92,18 @@
                     </div>
                 </section>
 
-                <div class="mb-2 leading-16 max-md:leading-10 ">
-                    <h1 class="text-[55px] font-bold text-left mb-4 max-md:text-[40px]">The GP care Port <br> Macquarie
-                        deserves</h1>
+
+                <div class="mb-2 leading-16 max-md:leading-10">
+                    <h1 class="text-[55px] font-bold text-left mb-4 max-md:text-[40px] max-sm:text-[10px]">The GP care Port <br> Macquarie deserves</h1>
                 </div>
 
                 <div class="mb-4 leading-8 max-md:leading-6">
-                    <p class=" text-[24px] font-normal mb-4 max-md:text-[18px] max-md:mb-2">Community based practice for
+                    <p class=" text-[24px] font-normal mb-4 max-md:text-[18px] max-md:mb-2 ">Community based practice for
                         all our neighbours. <br> Kids
                         welcome.
                     </p>
                 </div>
+
 
                 <section class="flex flex-col text-[20px] font-extralight mb-6 max-md:text-[16px]">
                     <div class="flex items-center gap-2">
@@ -124,13 +126,12 @@
                 </section>
             </section>
 
-            <section class="max-sm:w-[60vh]">
-                <div
-                    class="w-[592px] h-[640px] relative overflow-hidden rounded-2xl basis-[50%] max-lg:w-[500px] max-lg:h-[250px] max-sm:w-auto">
-                    <img class="w-full h-full absolute object-cover object-right" src="/assets/img/Doc.jfif"
-                        alt="Doctor smiling">
-                </div>
-            </section>
+            <div
+                class="basis-1/2 h-[640px] w-[590px] overflow-hidden relative rounded-2xl max-lg:h-[250px] max-lg:w-[500px] max-sm:h-auto max-sm:w-auto">
+                <img class=" w-full h-full object-cover object-right max-lg:object-center" src="/assets/img/Doc.jfif"
+                    alt="Doctor smiling">
+            </div>
+
 
         </article>
 
@@ -149,7 +150,7 @@
             </div>
 
             <section
-                class="grid grid-cols-3 grid-rows-2 gap-5 mb-18 max-lg:grid-cols-2 max-md:grid max-md:grid-cols-2 max-sm:grid-cols-1 max-sm:w-[60vh] ">
+                class="grid grid-cols-3 grid-rows-2 gap-5 mb-18 max-lg:grid-cols-2 max-md:grid max-md:grid-cols-2 max-sm:grid-cols-1 max-sm:w-auto ">
 
                 <div>
                     <div class="h-[210px]">
@@ -208,8 +209,8 @@
 
                 <div>
                     <div class="h-[210px] w-full rounded-t-[12px] overflow-hidden">
-                        <img class="object-contain object-right-top "
-                            src="/assets/img/Chronic disease management.jfif" alt="Chronic disease management">
+                        <img class="object-contain object-right-top " src="/assets/img/Chronic disease management.jfif"
+                            alt="Chronic disease management">
                     </div>
                     <div class="flex items-center gap-2 text-[20px] pt-4 pl-4 text-[#00664F]">
                         <a class="underline font-semibold max-md:text-[16px]" href="#">Chronic disease management</a>
@@ -263,21 +264,24 @@
                 </div>
             </section>
 
-            <section class="h-full w-full basis-[50%] rounded-2xl overflow-hidden max-md:h-[300px] max-md:w-[500px]">
+            <section
+                class="h-full w-full basis-[50%] rounded-2xl overflow-hidden max-md:h-[300px] max-md:w-[500px] max-sm:w-auto">
                 <iframe class="h-[400px] w-full "
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d84818.02124668195!2d144.9267527332146!3d-37.81186275923174!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad646b5d2ba4df7%3A0x4045675218ccd90!2sMelbourne%20Victoria%2C%20Australia!5e0!3m2!1ses!2sco!4v1742486036301!5m2!1ses!2sco"
                     style="border:0;" allowfullscreen="" loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </section> 
+            </section>
         </article>
 
         <!--3 simple steps-->
         <article class="w-full h-full bg-[#00664F] px-24 pb-12 pt-24 text-white max-md:px-12 max-sm:place-items-center">
             <h2 class="text-5xl font-bold mb-12 max-md:text-[40px]">Get the care your deserve in 3 simple steps</h2>
 
-            <section class="grid grid-cols-3 gap-6 mb-20 max-md:grid max-md:grid-cols-2 max-sm:grid-cols-1 max-sm:w-[70vh]">
+            <section
+                class="grid grid-cols-3 gap-6 mb-20 max-md:grid max-md:grid-cols-2 max-sm:grid-cols-1 max-sm:w-auto">
 
-                <div class="h-full w-full bg-white text-black p-6 mt-4 rounded-[12px] flex flex-col items-start justify-start shadow-lg shadow-black/60 ">
+                <div
+                    class="h-full w-full bg-white text-black p-6 mt-4 rounded-[12px] flex flex-col items-start justify-start shadow-lg shadow-black/60 ">
                     <div class="w-[40px] h-[40px] grid place-content-center bg-[#00664f] rounded-lg mb-4">
                         <i class=" text-white text-[20px] fa-regular fa-calendar"></i>
                     </div>
@@ -325,7 +329,8 @@
             <section>
                 <h2 class="text-[48px] font-bold px-4 mb-4 max-md:text-[40px]">Our values</h2>
 
-                <section class="grid grid-cols-3 place-content-evenly place-items-start gap-6 mb-20 p-0 max-sm:grid-cols-1">
+                <section
+                    class="grid grid-cols-3 place-content-evenly place-items-start gap-6 mb-20 p-0 max-sm:grid-cols-1">
                     <div
                         class="h-full w-full bg-white text-black p-6 rounded-[12px] flex flex-col items-start justify-start max-md:items-center">
                         <h3 class="text-[#00664F] text-[36px] font-bold mb-2 max-md:text-[28px]">Community</h3>
@@ -399,7 +404,8 @@
                                 </div>
                             </div>
 
-                            <div class="w-full h-full max-md:flex max-md:flex-col max-md:items-center max-md:justify-center">
+                            <div
+                                class="w-full h-full max-md:flex max-md:flex-col max-md:items-center max-md:justify-center">
                                 <p class="mb-4 text-[18px] font-semibold mt-6">Sounds fair?</p>
                                 <button
                                     class="flex flex-row justify-center items-center gap-2 ml-0 font-[600] rounded-md bg-black text-white text-[20px] py-[10px] px-[20px] cursor-pointer shadow-lg shadow-black/60 hover:bg-[#00664F] hover:shadow-sm transition-all duration-300">
@@ -416,15 +422,18 @@
         </article>
 
         <!--Transparent pricing and fees-->
-        <article class="w-full h-full bg-white px-24 pb-24 pt-24 text-black max-md:px-12 max-md:mt-0 max-sm:place-items-center">
+        <article
+            class="w-full h-full bg-white px-24 pb-24 pt-24 text-black max-md:px-12 max-md:mt-0 max-sm:place-items-center">
             <section class="flex flex-col justify-center items-center text-center mb-12">
                 <h2 class="text-5xl font-bold mb-6 max-md:text-40px">Transparent pricing and fees</h2>
-                <p class="text-[20px] mb-4 max-md:text-[16px]">We can bulk bill most eligible Medicare services, and claimable items for
+                <p class="text-[20px] mb-4 max-md:text-[16px]">We can bulk bill most eligible Medicare services, and
+                    claimable items for
                     DVA Gold/White card holders.</p>
                 <p class="text-[20px] max-md:text-[16px]">Concessions are available for children and pensioners.</p>
             </section>
 
-            <section class="w-full grid grid-cols-3 gap-6 mb-6 max-lg:grid-cols-2 max-sm:grid-cols-1 max-sm:place-items-center max-sm:w-[70vh]">
+            <section
+                class="w-full grid grid-cols-3 gap-6 mb-6 max-lg:grid-cols-2 max-sm:grid-cols-1 max-sm:place-items-center max-sm:w-auto">
 
                 <section class="h-full w-full max-md:mb-4 shadow-lg shadow-black/60">
                     <div class="bg-principal text-white p-6 rounded-t-[14px] flex flex-col">
@@ -481,7 +490,7 @@
                         </div>
                     </div>
                 </section>
-                
+
                 <section class="h-full w-full shadow-lg shadow-black/80">
                     <div class="bg-principal text-white p-6 rounded-t-[14px] flex flex-col">
                         <h3 class="text-2xl font-bold mb-1">Standard consultation</h3>
@@ -533,10 +542,10 @@
         <!--Frequently asked questions-->
         <article class="flex flex-col items-center justify-center pb-10 max-md:px-12">
 
-            <section class="w-[70vh]">
+            <section class="w-[70vh] max-sm:w-auto">
                 <div class="max-md:flex max-md:justify-center max-md:text-center">
                     <h2 class="text-5xl font-bold mb-16 max-md:text-[40px]">Frequently asked questions</h2>
-                 </div>
+                </div>
 
                 <section class="text-[16px] mb-12">
                     <div class="flex justify-between pb-6 font-bold">
@@ -590,7 +599,8 @@
         <article class="mb-20 pb-20 px-24 text-white max-md:px-12">
             <section class="bg-principal flex flex-col justify-center items-center text-center p-16 rounded-2xl">
                 <div class="mb-8">
-                    <h2 class="text-5xl font-bold mb-8 max-xl:text-4xl max-lg:text-3xl max-md:text-2xl max-sm:.[20px]">Book your appointment now</h2>
+                    <h2 class="text-5xl font-bold mb-8 max-xl:text-4xl max-lg:text-3xl max-md:text-2xl max-sm:.[20px]">
+                        Book your appointment now</h2>
                     <p class="text-[20px] max-sm:text-[16px]">Get a same day appointment with a patient specialist.</p>
                 </div>
 
